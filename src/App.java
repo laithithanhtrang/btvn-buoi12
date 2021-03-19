@@ -21,7 +21,8 @@ public class App {
 
         // bài 2
         Team team = new Team();
-        System.out.println(team.buildTeam(4,3,3).toString());
+        System.out.println(team.selectPlayer().toString()); //in ngẫu nhien
+        System.out.println(team.buildTeam(4,3,3).toString()); //in 11 cau thu theo doi hinh 4-3-3
         // System.out.println(team.);
 
     }
